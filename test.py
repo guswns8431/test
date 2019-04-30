@@ -10,7 +10,7 @@ students = [
     { "name": "손현준", "korean": 94, "math": 75, "english": 26, "science": 92 }
 ]
 # 학생을 한 명씩 반복합니다
-print("이름", "총점", "평균", sep="\t");
+print("이름", "총점", "평균", sep="\t")
 for student in students:
     # 점수의 총합과 평균을 구합니다.
     score_sum = student["korean"] + student["math"] + student["english"] + student["science"]
